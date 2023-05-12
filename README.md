@@ -7,9 +7,9 @@
 # How to use `react-ip-location` in your app
 
     1. Install
-        npm i react-ip-location
-        Or
         yarn add react-ip-location
+        Or
+        npm i react-ip-location
 
     2. In your App.tsx
         import { getIPLocation, checkIPLocation } from "react-ip-location";
@@ -21,7 +21,7 @@
             console.log('result');
         })
 
-        Or 
+        Or declare an async function in your component
         const getMyIP = async () => {
             const ip = await getIPLocation();
             return console.log("ip", ip);

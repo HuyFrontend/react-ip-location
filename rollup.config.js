@@ -28,10 +28,10 @@ export default [
       },
     ],
     plugins: [
-      resolve(),
+      resolve({ jsnext: true, preferBuiltins: true, browser: true }),
+      json(),
       commonjs(),
       typescript({ tsconfig: "./tsconfig.json" }),
-      json(),
     ],
   },
   {
