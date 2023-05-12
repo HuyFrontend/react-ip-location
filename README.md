@@ -1,8 +1,8 @@
-# react-ip-location
+# `react-ip-location`
 
-    - Simple and fastest library to get your current ip address and location.
+    - Simplest, lightest and fastest JS library to get your current ip address and location.
     
-    - Check current location by a provided ip address
+    - Check current location by a provided ip address.
 
 # How to use `react-ip-location` in your app
 

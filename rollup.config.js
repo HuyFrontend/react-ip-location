@@ -3,10 +3,6 @@ import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import dts from "rollup-plugin-dts";
 import json from "@rollup/plugin-json";
-// const dts = require("rollup-plugin-dts");
-// const resolve = require("@rollup/plugin-node-resolve");
-// const commonjs = require("@rollup/plugin-commonjs");
-// const typescript = require("@rollup/plugin-typescript");
 
 const packageJson = require("./package.json");
 
@@ -15,14 +11,12 @@ export default [
     input: "src/index.ts",
     output: [
       {
-        file: packageJson.main,
-        // file: "dist/cjs/index.js",
+        file: packageJson.main, // file: "dist/cjs/index.js",
         format: "cjs",
         sourcemap: true,
       },
       {
-        file: packageJson.module,
-        // file: "dist/esm/index.js",
+        file: packageJson.module, // file: "dist/esm/index.js",
         format: "esm",
         sourcemap: true,
       },
@@ -37,6 +31,6 @@ export default [
   {
     input: "dist/esm/types/index.d.ts",
     output: [{ file: "dist/index.d.ts", format: "esm" }],
-    plugins: [/*dts(),*/ dts.default()],
+    plugins: [dts.default()],
   },
 ];
