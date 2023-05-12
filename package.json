@@ -13,11 +13,13 @@
     "rollup": "rollup -c --bundleConfigAsCjs"
   },
   "keywords": [
-    "ip",
-    "ip address",
-    "user",
     "location",
-    "current"
+    "country",
+    "ip address",
+    "ip-location",
+    "country code",
+    "reactjs",
+    "javascript"
   ],
   "author": "HuyFrontend",
   "license": "ISC",
