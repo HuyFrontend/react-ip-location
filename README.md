@@ -18,7 +18,7 @@
 
   - getIPLocation();
   - checkIPLocation('your-ip-address');
-  - Supports the [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/
+  - Supports the [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/)
 
 ## Browser Support
 
