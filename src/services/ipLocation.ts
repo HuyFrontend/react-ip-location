@@ -11,7 +11,6 @@ const ipLocation = async (ipAddress?: string) => {
     .catch((error) => console.error(`Error:`, error));
   // const res = await axios.get('https://api.country.is/101.110.63.255'); // JP test
   // const res = await axios.get('https://api.country.is/101.109.255.255'); // TH
-  console.log("REAS", res);
   return res || null;
 };
 
