@@ -47,7 +47,7 @@ $ npm install react-ip-location
 
 ```javascript
 import React from 'react';
-import { getIPLocation, checkIPLocation } from "react-ip-location";
+import { getIPLocation, checkIPLocation } from 'react-ip-location';
 
 
 export const App = () => {
