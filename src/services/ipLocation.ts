@@ -1,4 +1,4 @@
-// import fetch from "cross-fetch";
+import fetch from "node-fetch";
 const ipLocation = async (ipAddress?: string) => {
   const countryIS = ipAddress
     ? `https://api.country.is/${ipAddress}`
